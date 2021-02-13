@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>CloudyPortfolio</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- google fonts -->
+<link href='#css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='#css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+<link href='#css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+<!-- end google fonts -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--nav-->
+<script src="js/jquery.min.js"></script>
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+</head>
+<body>
+<div class="body">
+<div class="wrap">
+  <div class="wrapper">
+    <!-- start header-->
+    <div class="header">
+      <div class="logo"><img src="images/self.png" alt=""><p class="para1">Hi, I am Jinyun from Shenzhen, China, having graduated from Shenzhen University, majored in accounting.</br>I am currently pursuing my MFA Design and Technology at Parsons School of Design.</br>My motivation is to keep learning new things!</p></div>
+      <div class="cssmenu">
+        <ul>
+          <!--<li><a href="index.html">Home</a></li>-->
+          <li class="active"><a href="">Portfolio作品集</a></li>
+          <!--<li><a href="blog.html">Blog</a></li>
+          <li class="has-sub"><a href="about.html">About</a></li>
+          <li class="last"><a href="contact.html">Contact</a></li>
+          <div class="clear"></div>-->
+        </ul>
+      </div>
+      <div class="clear"></div>
+      <div class="top-nav">
+        <nav class="clearfix">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li ><a href="about.html">About</a></li>
+            <li ><a href="contact.html">Contact</a></li>
+          </ul>
+          <a href="#" id="pull">Menu</a> </nav>
+      </div>
+    </div>
+    <!-- start content -->
+    <div class="main1">
+      <div class="content">
+        <h2>Projects Catalog</h2>
+      </div>
+      <div class="grids_of_4">
+        <div class="grid_1_of_4 images_1_of_4"> <a href="furniture1.html"><img src="images/椅子封面图.png" title="Project1" alt="" /></a>
+          <h3><a href="furniture1.html">A Cat can become A Chair</a></h3>
+          <p class="para">
+              Furniture Design</br>
+              <!--Size: 45cm*45cm*95cm
+          </p>-->
+          <!--<h4><a href="#">Graphics Design</h4>-->
+        </div>
+        <div class="grid_1_of_4 images_1_of_4"> <a href="graphic design1.html"><img src="images/椅子手帕底稿封面.png" title="Project2" alt="" /></a>
+          <h3><a href="graphic design1.html">Cat is Made Out of A Tangram</a></h3>
+          <p class="para">
+            Graphic Design</br>
+            <!--Size: 40cm*40cm
+          </p>-->
+          <!--<h4><a href="#">print Design</a></h4>-->
+        </div>
+        <div class="grid_1_of_4 images_1_of_4"> <a href="installation1.html"><img src="images/cube/cube封面.png" title="Project3" alt="" /></a>
+          <h3><a href="installation1.html">The World is a Cube</a></h3>
+          <p class="para">
+            Installation Art</br>
+            <!--Size: 65cm*65cm*65cm
+          </p>-->
+          <!--<h4><a href="#">WordPress Theme</a></h4>-->
+        </div>
+        <div class="grid_1_of_4 images_1_of_4"> <a href="fashion1.html"><img src="images/clothtiger/tiger封面.png" title="Project4" alt="" /></a>
+          <h3><a href="fashion1.html">Cloth Tiger</a></h3>
+          <p class="para">
+            Fashion Design</br>
+            <!--Size: -
+          </p>-->
+          <!--<h4><a href="#">Branding</a></h4>-->
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="grids_of_4">
+        <div class="grid_1_of_4 images_1_of_4"> <a href="textile1.html"><img src="images/cloth/cloth封面.png" title="Project5" alt="" /></a>
+          <h3><a href="textile1.html">Disorder</a></h3>
+          <p class="para">
+            Textile Design</br>
+            <!--Size: -
+          </p>-->
+          <!--<h4><a href="#">Graphics Design</h4>-->
+          </div>
+        <div class="grid_1_of_4 images_1_of_4"> <a href="installation2.html"><img src="images/lsbox/box封面.png" title="Project6" alt="" /></a>
+          <h3><a href="installation2.html">Light and Shadow Box</a></h3>
+          <p class="para">
+            Installation Art</br>
+            <!--Size: 60cm*60cm
+          </p>-->
+          <!--<h4><a href="#">print Design</a></h4>-->
+        </div>
+        <div class="grid_1_of_4 images_1_of_4"> <a href="UI1.html"><img src="images/dreamcatcher/UI1封面.png" title="Project7" alt="" /></a>
+          <h3><a href="UI1.html">Dreamcatcher</a></h3>
+          <p class="para">
+            UI Design</br>
+            <!--Size: 100cm*100cm*100cm
+          </p>-->
+          <!--<h4><a href="#">WordPress Theme</a></h4>-->
+        </div>
+        <div class="grid_1_of_4 images_1_of_4"> <a href="littleplane.html"><img src="images/littleplane封面.png" title="Project8" alt="" /></a>
+          <h3><a href="littleplane.html">Little Plane</a></h3>
+          <p class="para">
+            Animation</br>
+            <!--UI Design</br>
+            Size: - 
+          </p>-->
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="grids_of_4">
+        <div class="grid_1_of_4 images_1_of_4"> <a href="poster.html"><img src="images/poster/poster封面.png" title="Project1" alt="" /></a>
+          <h3><a href="poster.html">Poster</a></h3>
+          <p class="para">
+              Graphic Design</br>
+              <!--Size: 45cm*45cm*95cm
+          </p>-->
+          <!--<h4><a href="#">Graphics Design</h4>-->
+        </div>
+        <div class="grid_1_of_4 images_1_of_4"> <a href="otherworks.html"><img src="images/otherworks/otherworks封面.png" title="Project2" alt="" /></a>
+          <h3><a href="otherworks.html">Other Works</a></h3>
+          <p class="para">
+            Fine Art</br>
+            <!--Size: 40cm*40cm
+          </p>-->
+          <!--<h4><a href="#">print Design</a></h4>-->
+        </div>
+        <div class="grid_1_of_4 images_1_of_4"> <a href="critical computation.html"><img src="images/cc封面.png" title="Project3" alt="" /></a>
+          <h3><a href="critical computation.html">Critical Computation</a></h3>
+          <p class="para">
+            Interaction Design</br>
+            <!--Installation Art</br>
+            Size: 65cm*65cm*65cm
+          </p>-->
+          <!--<h4><a href="#">WordPress Theme</a></h4>-->
+        </div>
+        <div class="grid_1_of_4 images_1_of_4"> <a href="insredesign.html"><img src="images/ins封面.png" title="Project4" alt="" /></a>
+          <h3><a href="insredesign.html">Instagram Redesign</a></h3>
+          <p class="para">
+            UI Design</br>
+            <!--Size: -
+          </p>-->
+          <!--<h4><a href="#">Branding</a></h4>-->
+        </div>
+        <div class="clear"></div>
+      </div>
+          <!--<h4><a href="#">WordPress Theme</a></h4>-->
+        <!--</div>
+        <div class="grid_1_of_4 images_1_of_4"> <a href="#"><img src="images/pic8.jpg" title="Project8" alt="" /></a>
+          <h3><a href="#">Other works</a></h3>
+          <p class="para">
+            Fine Art</br>
+            Size: - 
+          </p>-->
+          <!--<h4><a href="#">Branding</a></h4>
+        </div>-->
+
+    </div>
+  </div>
+</div>
+<!-- start foorter -->
+<div class="footer_bg">
+  <div class="wrap">
+    <div class="wrapper">
+      <div class="footer">
+        
+           
+            <div class="clear"></div>
+          </div>
+                <div class="foot_nav">
+            <ul>
+           
+              <div class="clear"></div>
+            </ul>
+          </div>
+        </div>
+        
+            <div class="clear"></div>
+          </div>
+        </div>
+
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- start footer copy -->
+<div class="wrap">
+  <div class="wrapper">
+    <div class="copy">
+      <p class="w3-link">yunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloud </p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

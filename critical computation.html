@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>The Minima Website Template | About :: </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- google fonts -->
+<link href='#css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='#css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+<link href='#css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+<!-- end google fonts -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--nav-->
+<script src="js/jquery.min.js"></script>
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+</head>
+<body>
+<div class="body">
+  <div class="wrap">
+    <div class="wrapper">
+      <!-- start header-->
+      <div class="header">
+        <div class="logo"> <a href="index.html"><img src="images/self.png" alt=""></a> </div>
+        <div class="cssmenu">
+          <ul>
+            
+            <li><a href="portfolio.html">Portfolio作品集</a></li>
+            
+            
+           
+            <div class="clear"></div>
+          </ul>
+        </div>
+        <div class="clear"></div>
+        <div class="top-nav">
+          <nav class="clearfix">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li ><a href="about.html">About</a></li>
+              <li ><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="#" id="pull">Menu</a> </nav>
+        </div>
+      </div>
+      <!-- start content -->
+      <div class="main1">
+        <div class="content">
+          <h2>Critical Computation</h2>
+        </div>
+        <div class="banner">  <iframe
+          width="400px"
+          height="400px"
+          src="https://editor.p5js.org/lij828/embed/xh4M_g4xv"
+        ></iframe>
+           <h3>Form Generator - After Eating</h3>
+           <p>A liitle pig you can play with! Use the slider to have fun!<br/>I want to make a cute interactive animation,for I enjoy eating delicious food, I choose to paint a litte pig and help it not feel hungry. At first, I drew a draft, then  began to think what kind of functions are suitale for my little pig. At last, I decided to use random() to make its ears swinging up and down, and lighting up its flower hair. Another important function used in my sketch is the slider, and it's fit to the status of the little pig's before and after eating. Except for the bigger belly, the piggy smiles more after eating.</p>
+           </br><iframe
+          width="600px"
+          height="600px"
+          src="https://editor.p5js.org/lij828/embed/pvbatmYAp"
+        ></iframe>
+           <h3>Negative Emotions Shredder</h3>
+           <p>In this assignment, I decided to use my emotions as my data. In today’s society, many people are suffering from different kinds of pressure, and so do I. There are negative emotions continuously generating from my brain if I am under pressure. There must be a for me to relieve pressure and release these negative emotions. </br>In the last past week, I have recorded every moment of my negative emotions. I sorted them up and divided them into 5 categories. They separately are hungry, frustrated, tired, anxious and ashamed. When recoding these feelings, I also take some short notes to describe them.In this assignment, I decided to use my emotions as my data. In today’s society, many people are suffering from different kinds of pressure, and so do I. There are negative emotions continuously generating from my brain if I am under pressure. There must be a for me to relieve pressure and release these negative emotions.</br>The concept of my design is that when you have negative emotions, you can write it down, or try some other ways to record them. And then, you can delete them yourself. As for me, when recording these negative emotions, I feel kind of relaxed, because actually recording is already a way to relieve negative emotions. And after some time, when I look back at what I have recorded, I will feel I am very strong for that I have survived after so many painful moments. I am strong enough to delete all these negative emotions and my life will move on. I am a refreshed myself with a hopeful future.</p>
+          </br><iframe
+          width="600px"
+          height="600px"
+          src="https://editor.p5js.org/lij828/embed/gjFm8CYgx"></iframe>
+           <h3>Translation Device - Sunshine&Sunset in Beijing</h3>
+           <p>The gravitational interaction between the moon and the earth is causing the moon to slowly move away from the earth at a rate of 3.8 centimeters per year. In the distant future, the moon looks much smaller. Only now, the sun and moon in our eyes happen to be the same size, which is a wonderful accident. The diameter of the sun is about 400 times that of the moon, and the distance from the sun to us is exactly 400 times that of the moon. I have always had a strong curiosity and desire to explore space. Changes in the positions of the planets will bring the earth the change of seasons and the time of sunrise and sunset. I found a sunrise and sunset API (https://sunrise-sunset.org/api), this API can feedback the user about the change of sunrise and sunset time of the geographic location according to the longitude and latitude of the geographic coordinates input by the user. I like sunrise and sunset very much. I think sunrise and sunset are very romantic things. At the same time, sunrise and sunset are also a gauge of time. I hope to present the sunrise and sunset to the audience in a visual way.</p>
+           </br><div class="read_more"> <a class="btn" href="https://jinyun-cclab.glitch.me/p1.html">Tap me to see More!</a> </div>
+        </div>
+        <div class="about">
+          <!--<div class="about_img"> <img src="images/cube/cube1.png" alt=""/> </div>
+          <div class="about_img"> <img src="images/cube/cube2.png" alt=""/> </div>
+          <div class="about_img"> <img src="images/cube/cube3.png" alt=""/> </div>
+     
+          <div class="about_img"> <img src="images/cube/迷宫14.png" alt=""/> </div>
+          <div class="about_img"> <img src="images/cube/IMG_2622.JPG" alt=""/> </div>
+          <div class="about_img"> <img src="images/cube/IMG_2619.JPG" alt=""/> </div>-->
+
+          <!--<p class="para1">《世界是立方体》：灵感来自电影《心慌方/cube》。一群人被没有缘由的被困在由无数立方体构成的方形空间，他们用尽全力去寻找出口。我选择用透明材质的管子去搭建正方体外形是希望观众能以上帝视角去审视空间结构。每个正方体都相互贯通，却没有真正的出口，像是无解的迷宫。装置从不同的角度看都是多个四边形的叠加。光的路径就是人们在迷宫中探索的轨迹。我们所生活的世界是巨大的立方体，我们寻寻觅觅，我们四处碰壁，每个人所处的位置不同但都在究其一生寻找出口。更讽刺的是，也许我们碌碌无为的人生也毫无保留的暴露在比人类更高级的生命体的眼下。</p>-->
+          <div class="blog_para">
+
+            
+            <div class="clear"></div>
+           
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- start foorter -->
+<div class="footer_bg">
+  <div class="wrap">
+    <div class="wrapper">
+      <div class="footer">
+        
+          <div class="footer_grid">
+           
+           
+            <div class="clear"></div>
+          </div>
+         
+       
+        </div>
+        <div class="span_1_of_3">
+        
+          <div class="footer_grid">
+           
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="footer_grid">
+             </div>
+          
+            <div class="clear"></div>
+          </div>
+        </div>
+       
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- start footer copy -->
+<div class="wrap">
+  <div class="wrapper">
+    <div class="copy">
+      <p class="w3-link">yunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloud</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
