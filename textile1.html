@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>The Minima Website Template | About :: </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- google fonts -->
+<link href='#css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='#css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+<link href='#css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+<!-- end google fonts -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--nav-->
+<script src="js/jquery.min.js"></script>
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+</head>
+<body>
+<div class="body">
+  <div class="wrap">
+    <div class="wrapper">
+      <!-- start header-->
+      <div class="header">
+        <div class="logo"> <a href="index.html"><img src="images/self.png" alt=""></a> </div>
+        <div class="cssmenu">
+          <ul>
+            
+            <li><a href="portfolio.html">Portfolio作品集</a></li>
+            
+            
+           
+            <div class="clear"></div>
+          </ul>
+        </div>
+        <div class="clear"></div>
+        <div class="top-nav">
+          <nav class="clearfix">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li ><a href="about.html">About</a></li>
+              <li ><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="#" id="pull">Menu</a> </nav>
+        </div>
+      </div>
+
+      <!-- start content -->
+      <div class="main1">
+        <div class="content">
+          <h2>DISORDER</h2>
+        </div>
+        <div class="banner"> <img src="images/cloth/cloth1.png" alt="" />
+         
+
+           <h3>Disorder</h3>
+           <p>For this interesting fabric experiment, I tried a variety of different methods to make a total of 24 pieces of cloths. I pieced all of them together and made a compete canvas. The process of creation was very free and causal. Whenever I had some inspiration, I immediately transformed it and reflected it in my work. It was an experience of complete self-release, without caring for the size of the work, the proportion of dyes or the heat of the firelock. Each of the pieces of cloth is representative of spontaneous inspiration.</p>
+        </div>
+        <div class="about">
+     
+          <div class="about_img"> <img src="images/cloth/cloth2.png" alt=""/> </div>
+          <div class="about_img"> <img src="images/cloth/cloth3.png" alt=""/> </div>
+        
+
+          <p class="para1">《杂乱无章》：这是一次有趣的面料实验，我尝试了很多不同方法总共制作了24块布料，最终将他们拼接成一块完整的画布。创作过程非常随性洒脱，稍有灵感就把它立刻转化成现实，这是一次释放自我的创作体验。不需要精细的计算尺寸，调制染料的混合比列，把握火枪的火候。每一块布料的呈现都是来自杂乱无章的尝试。</p>
+          <div class="blog_para">
+
+            
+            <div class="clear"></div>
+           
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- start foorter -->
+<div class="footer_bg">
+  <div class="wrap">
+    <div class="wrapper">
+      <div class="footer">
+        
+          <div class="footer_grid">
+           
+           
+            <div class="clear"></div>
+          </div>
+         
+       
+        </div>
+        <div class="span_1_of_3">
+        
+          <div class="footer_grid">
+           
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="footer_grid">
+             </div>
+          
+            <div class="clear"></div>
+          </div>
+        </div>
+       
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- start footer copy -->
+<div class="wrap">
+  <div class="wrapper">
+    <div class="copy">
+      <p class="w3-link">yunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloud</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

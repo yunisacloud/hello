@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>The Minima Website Template | About :: </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- google fonts -->
+<link href='#css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='#css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+<link href='#css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+<!-- end google fonts -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--nav-->
+<script src="js/jquery.min.js"></script>
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+</head>
+<body>
+<div class="body">
+  <div class="wrap">
+    <div class="wrapper">
+      <!-- start header-->
+      <div class="header">
+        <div class="logo"> <a href="index.html"><img src="images/self.png" alt=""></a> </div>
+        <div class="cssmenu">
+          <ul>
+            
+            <li><a href="portfolio.html">Portfolio作品集</a></li>
+            
+            
+           
+            <div class="clear"></div>
+          </ul>
+        </div>
+        <div class="clear"></div>
+        <div class="top-nav">
+          <nav class="clearfix">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li ><a href="about.html">About</a></li>
+              <li ><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="#" id="pull">Menu</a> </nav>
+        </div>
+      </div>
+
+      <!-- start content -->
+      <div class="main1">
+        <div class="content">
+          <h2>Instagram Redesign</h2>
+        </div>
+        <div class="banner"> <embed src="instagram redesign.pdf"id="review" style="width:800px;  height:900px;">
+         
+
+           <!--<h3>Dreamcatcher</h3>
+           <p>Our dreams always slip by when we are about to wake up, so I have designed this App Dreamcatcher hoping to keep our dreams. There are two special functions of the App, one is dream visualization, through which users can record and simulate the scenes of their dreams, the other one is generating a character of the user in the dream according to user’s record of the dream. I designed the logo with the inspiration from the "Taiji-diagram" of Yin and Yang, meaning the balance between dream and reality. I created the frosted glass effect to present the dreamlike sense and vagueness, implying the borderless dream and the total freedom of it. A circle is always considered a borderless universe, so I also applied circles to indicate the dream without boundary. For the colors I adopted purple and pink, creating dreamy and cozy feelings and making the most comfortable cradle for our dreams.</p>-->
+        </div>
+        <div class="about">
+     
+          <!--<div class="about_img"> <img src="images/handkerchief/椅子手帕1.png" alt=""/> </div>
+          <div class="about_img"> <img src="images/handkerchief/椅子手帕3.png" alt=""/> </div>
+          <div class="about_img"> <img src="images/handkerchief/椅子手帕5.png" alt=""/> </div>-->
+
+          <!--<p class="para1">
+              梦总是在梦醒时分偷偷溜走，由此我设计了Dreamcatcher试图去留住梦。
+              Dreamcatcher有两个特别的功能：梦境可视化，通过用户的记录去模拟生成梦境中的场景；梦中人,根据用户的记录去形成一个角色，也就是梦境中的自己的样子。Logo的灵感来源是太极图,太极寓意阴阳平衡，我们也可以理解为梦与现实的平衡。用毛玻璃效果去营造模糊的梦幻感，因为模糊所以无边界，失去边界即没有束缚，梦是绝对的自由。圆总被认为是没有边界的宇宙，所以我也使用圆去展现无边界感。紫色和粉色总是永远梦幻迷离的感觉，给予人在云端漂浮的奇妙感受，是梦境诞生最舒适的摇篮。
+          </p>-->
+          <div class="blog_para">
+
+            
+            <div class="clear"></div>
+           
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- start foorter -->
+<div class="footer_bg">
+  <div class="wrap">
+    <div class="wrapper">
+      <div class="footer">
+        
+          <div class="footer_grid">
+           
+           
+            <div class="clear"></div>
+          </div>
+         
+       
+        </div>
+        <div class="span_1_of_3">
+        
+          <div class="footer_grid">
+           
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="footer_grid">
+             </div>
+          
+            <div class="clear"></div>
+          </div>
+        </div>
+       
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- start footer copy -->
+<div class="wrap">
+  <div class="wrapper">
+    <div class="copy">
+      <p class="w3-link">yunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloud</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

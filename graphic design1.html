@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>The Minima Website Template | About :: </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- google fonts -->
+<link href='#css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='#css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+<link href='#css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+<!-- end google fonts -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--nav-->
+<script src="js/jquery.min.js"></script>
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+</head>
+<body>
+<div class="body">
+  <div class="wrap">
+    <div class="wrapper">
+      <!-- start header-->
+      <div class="header">
+        <div class="logo"> <a href="index.html"><img src="images/self.png" alt=""></a> </div>
+        <div class="cssmenu">
+          <ul>
+            
+            <li><a href="portfolio.html">Portfolio作品集</a></li>
+            
+            
+           
+            <div class="clear"></div>
+          </ul>
+        </div>
+        <div class="clear"></div>
+        <div class="top-nav">
+          <nav class="clearfix">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li ><a href="about.html">About</a></li>
+              <li ><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="#" id="pull">Menu</a> </nav>
+        </div>
+      </div>
+
+      <!-- start content -->
+      <div class="main1">
+        <div class="content">
+          <h2>Cat is Made Out of A Tangram</h2>
+        </div>
+        <div class="banner"> <img src="images/handkerchief/椅子手帕底稿.png" alt="" />
+         
+
+           <h3>Cat is Made Out of A Tangram</h3>
+           <p>This is an extension of the previous work, A Cat can become A Chair, a series of graphic designs made out of cats’ various gestures. I printed cat graphics on a handkerchief and recombined them randomly, resulting in more new features. My aim for this piece is to show appreciation for the repeated circle of life, from beginning to end, and from the ending to the beginning again.  </p>
+        </div>
+        <div class="about">
+     
+          <div class="about_img"> <img src="images/handkerchief/椅子手帕1.png" alt=""/> </div>
+          <div class="about_img"> <img src="images/handkerchief/椅子手帕3.png" alt=""/> </div>
+          <div class="about_img"> <img src="images/handkerchief/椅子手帕5.png" alt=""/> </div>
+
+          <p class="para1">《猫是七巧板做的》：将由猫咪抽象后的图形转化成一个平面设计。重新组合后的抽象图形又具象成新的猫，我想表达的是生命的循环往复就是从开始到结束再重新开始的轮回。</p>
+          <div class="blog_para">
+
+            
+            <div class="clear"></div>
+           
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- start foorter -->
+<div class="footer_bg">
+  <div class="wrap">
+    <div class="wrapper">
+      <div class="footer">
+        
+          <div class="footer_grid">
+           
+           
+            <div class="clear"></div>
+          </div>
+         
+       
+        </div>
+        <div class="span_1_of_3">
+        
+          <div class="footer_grid">
+           
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="footer_grid">
+             </div>
+          
+            <div class="clear"></div>
+          </div>
+        </div>
+       
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- start footer copy -->
+<div class="wrap">
+  <div class="wrapper">
+    <div class="copy">
+      <p class="w3-link">yunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloud</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>The Minima Website Template | About :: </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- google fonts -->
+<link href='#css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='#css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+<link href='#css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+<!-- end google fonts -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--nav-->
+<script src="js/jquery.min.js"></script>
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+</head>
+<body>
+<div class="body">
+  <div class="wrap">
+    <div class="wrapper">
+      <!-- start header-->
+      <div class="header">
+        <div class="logo"> <a href="index.html"><img src="images/self.png" alt=""></a> </div>
+        <div class="cssmenu">
+          <ul>
+            
+            <li><a href="portfolio.html">Portfolio作品集</a></li>
+            
+            
+           
+            <div class="clear"></div>
+          </ul>
+        </div>
+        <div class="clear"></div>
+        <div class="top-nav">
+          <nav class="clearfix">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li ><a href="about.html">About</a></li>
+              <li ><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="#" id="pull">Menu</a> </nav>
+        </div>
+      </div>
+
+      <!-- start content -->
+      <div class="main1">
+        <div class="content">
+          <h2>Little Plane</h2>
+        </div>
+        <div class="banner"> <video width="640" height="360" controls><source src="videos/The little plane.mp4" type="video/mp4"></video>
+         
+
+           <h3>Little Plane</h3>
+           <p>This is the last piece of the “cube “series, a story about the adventure of a little plane. A little plane was trapped in the cube. After a deep struggle with itself, it finally decided to destroy the cube with a cupcake, broke free from the cube and found its freedom in the sky. I made models of a plane, cupcake, cube and clouds with c4d, and then integrated them with a real scene of the cloud to display the feeling of flying in the sky freely. In my work, Cube, the cube itself is a “prison”, a cage that is hard to break. In the Light and Shadow Box, the cube reflects an unpredictable future. Finally, in this piece, the people break the shackles of their imprisonment and set free. I hope to express my pursuit of fighting with so-called fate and seizing my own future. 
+</p>
+        </div>
+        <div class="about">
+     
+          <!--<div class="about_img"> <img src="images/handkerchief/椅子手帕1.png" alt=""/> </div>
+          <div class="about_img"> <img src="images/handkerchief/椅子手帕3.png" alt=""/> </div>
+          <div class="about_img"> <img src="images/handkerchief/椅子手帕5.png" alt=""/> </div>-->
+
+          <p class="para1">
+              这是正方体系列的最后一个作品，讲述了一架小飞机的冒险。一架小飞机从正方体内挣脱，经历了思考与徘徊，最后用cupcake炸掉原本束缚它的正方体，打破枷锁，冲上云霄，在云端自由翱翔。我用c4d进行了飞机，cupcake，正方体，云朵的建模；再结合了一些实拍的云端场景去展现云上飞行的畅快感觉。在之前的作品《世界是立方体》中，正方体是一种困境；在《光影盒子》中，正方体折射出无法预测的未来。这种被禁锢状态，迷茫困惑的心境在《Little Plane》里被打破。我想表达的是把握自己的未来，与命运抗争最终获得自由的一种美好向往。
+
+          </p>
+          <div class="blog_para">
+
+            
+            <div class="clear"></div>
+           
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- start foorter -->
+<div class="footer_bg">
+  <div class="wrap">
+    <div class="wrapper">
+      <div class="footer">
+        
+          <div class="footer_grid">
+           
+           
+            <div class="clear"></div>
+          </div>
+         
+       
+        </div>
+        <div class="span_1_of_3">
+        
+          <div class="footer_grid">
+           
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="footer_grid">
+             </div>
+          
+            <div class="clear"></div>
+          </div>
+        </div>
+       
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- start footer copy -->
+<div class="wrap">
+  <div class="wrapper">
+    <div class="copy">
+      <p class="w3-link">yunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloud</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

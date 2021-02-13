@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>The Minima Website Template | About :: </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- google fonts -->
+<link href='#css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='#css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+<link href='#css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+<!-- end google fonts -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--nav-->
+<script src="js/jquery.min.js"></script>
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+</head>
+<body>
+<div class="body">
+  <div class="wrap">
+    <div class="wrapper">
+      <!-- start header-->
+      <div class="header">
+        <div class="logo"> <a href="index.html"><img src="images/self.png" alt=""></a> </div>
+        <div class="cssmenu">
+          <ul>
+            
+            <li><a href="portfolio.html">Portfolio作品集</a></li>
+            
+            
+           
+            <div class="clear"></div>
+          </ul>
+        </div>
+        <div class="clear"></div>
+        <div class="top-nav">
+          <nav class="clearfix">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li ><a href="about.html">About</a></li>
+              <li ><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="#" id="pull">Menu</a> </nav>
+        </div>
+      </div>
+
+      <!-- start content -->
+      <div class="main1">
+        <div class="content">
+          <h2>Cloth Tiger</h2>
+        </div>
+        <div class="banner"> <img src="images/clothtiger/tiger1.png" alt="" />
+         
+
+           <h3>Cloth Tiger</h3>
+           <p>Cloth Tiger is a traditional folk craft in China in which every child would get a tiger pillow as the symbol of health and luck back in the old days. Inspired by the tiger pillow made by my grandmother, I combined traditional features with popular fashion elements and designed the outfits, hoping to promote and develop traditional Chinese culture. I hate to see traditional culture being replaced by the fast pace of life. Instead, I wish to form a new fashion trend with a combination of traditional culture and contemporary concepts. For the material, I chose space cotton for its perfect plasticity and tactility. The soft and elastic quality will give people a great sense of security and happiness.</p>
+        </div>
+        <div class="about">
+     
+          <div class="about_img"> <img src="images/clothtiger/tiger2.png" alt=""/> </div>
+          <div class="about_img"> <img src="images/clothtiger/tiger3.png" alt=""/> </div>
+          <div class="about_img"> <img src="images/clothtiger/tiger4.png" alt=""/> </div>
+
+          <p class="para1">《布老虎》：布老虎是中国传统的一种民间工艺。每个小孩出生时都会得到一个老虎枕头以保佑平安健康。我以姥姥制作的老虎枕头为灵感，本着发扬传统文化的想法，将其与时尚潮流结合，制作了一套服装。希望传统文化不会被快速的生活节奏所取代，而是与当下理念结合，形成新的潮流。在材料上我选择了太空棉，其塑形性非常好，触感舒适，柔软有弹性的面料给予人极大的安全感，将太空棉穿在身上有被拥抱的辛福感。</p>
+          <div class="blog_para">
+
+            
+            <div class="clear"></div>
+           
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- start foorter -->
+<div class="footer_bg">
+  <div class="wrap">
+    <div class="wrapper">
+      <div class="footer">
+        
+          <div class="footer_grid">
+           
+           
+            <div class="clear"></div>
+          </div>
+         
+       
+        </div>
+        <div class="span_1_of_3">
+        
+          <div class="footer_grid">
+           
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="footer_grid">
+             </div>
+          
+            <div class="clear"></div>
+          </div>
+        </div>
+       
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- start footer copy -->
+<div class="wrap">
+  <div class="wrapper">
+    <div class="copy">
+      <p class="w3-link">yunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloud</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

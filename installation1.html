@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>The Minima Website Template | About :: </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- google fonts -->
+<link href='#css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='#css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+<link href='#css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+<!-- end google fonts -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--nav-->
+<script src="js/jquery.min.js"></script>
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+</head>
+<body>
+<div class="body">
+  <div class="wrap">
+    <div class="wrapper">
+      <!-- start header-->
+      <div class="header">
+        <div class="logo"> <a href="index.html"><img src="images/self.png" alt=""></a> </div>
+        <div class="cssmenu">
+          <ul>
+            
+            <li><a href="portfolio.html">Portfolio作品集</a></li>
+            
+            
+           
+            <div class="clear"></div>
+          </ul>
+        </div>
+        <div class="clear"></div>
+        <div class="top-nav">
+          <nav class="clearfix">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li ><a href="about.html">About</a></li>
+              <li ><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="#" id="pull">Menu</a> </nav>
+        </div>
+      </div>
+      <!-- start content -->
+      <div class="main1">
+        <div class="content">
+          <h2>The World is a Cube</h2>
+        </div>
+        <div class="banner"> <video width="640" height="360" controls><source src="videos/The world is a cube.mp4" type="video/mp4"></video>
+           <h3>The World is a Cube</h3>
+           <p>This work is inspired by a movie called Cube. A group of people were trapped in a square space made up of countless cubes for no reason, and they tried their best to find an exit. I chose transparent pipes as the material of the square because I hoped that the audience could look at the spatial structure from the perspective of God. Every cube is connected to each other but there is no real exit, similar to a labyrinth without solution. The device is a superposition of multiple quadrilaterals if you see it from different angles, and the path of light represent the traces of those involved in the exploration. The world we are living in is a huge cube, in which we search and run into walls. Every one of us is in different position but we are all looking for an exit in our lifetime. Ironically, perhaps our life of mediocrity is completely exposed to an advanced, higher-level being than that of human beings.</p>
+        </div>
+        <div class="about">
+           <div class="about_img"> <img src="images/cube/cube1.png" alt=""/> </div>
+          <div class="about_img"> <img src="images/cube/cube2.png" alt=""/> </div>
+          <div class="about_img"> <img src="images/cube/cube4.png" alt=""/> </div>
+     
+          <div class="about_img"> <img src="images/cube/cube8.png" alt=""/> </div>
+          <div class="about_img"> <img src="images/cube/cube5.png" alt=""/> </div>
+          <div class="about_img"> <img src="images/cube/cube6.png" alt=""/> </div>
+
+          <p class="para1">《世界是立方体》：灵感来自电影《心慌方/cube》。一群人被没有缘由的被困在由无数立方体构成的方形空间，他们用尽全力去寻找出口。我选择用透明材质的管子去搭建正方体外形是希望观众能以上帝视角去审视空间结构。每个正方体都相互贯通，却没有真正的出口，像是无解的迷宫。装置从不同的角度看都是多个四边形的叠加。光的路径就是人们在迷宫中探索的轨迹。我们所生活的世界是巨大的立方体，我们寻寻觅觅，我们四处碰壁，每个人所处的位置不同但都在究其一生寻找出口。更讽刺的是，也许我们碌碌无为的人生也毫无保留的暴露在比人类更高级的生命体的眼下。</p>
+          <div class="blog_para">
+
+            
+            <div class="clear"></div>
+           
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- start foorter -->
+<div class="footer_bg">
+  <div class="wrap">
+    <div class="wrapper">
+      <div class="footer">
+        
+          <div class="footer_grid">
+           
+           
+            <div class="clear"></div>
+          </div>
+         
+       
+        </div>
+        <div class="span_1_of_3">
+        
+          <div class="footer_grid">
+           
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="footer_grid">
+             </div>
+          
+            <div class="clear"></div>
+          </div>
+        </div>
+       
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- start footer copy -->
+<div class="wrap">
+  <div class="wrapper">
+    <div class="copy">
+      <p class="w3-link">yunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloudyunisacloud</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
